@@ -9,7 +9,7 @@
 git clone https://github.com/virtualanuj/urlinfo.git
 
 
-> **This is real malvare data. Please don't naviage to the urls on your system. You may infect your machine.**
+> **This is real malware data. Please don't naviage to the urls on your system. You may infect your machine.**
 
 
 ## seed data
@@ -20,7 +20,7 @@ git clone https://github.com/virtualanuj/urlinfo.git
 * redis-server
 * python urlinfo.py
 
-> **This is real malvare data. Please don't naviage to the urls on your system. You may infect your machine.**
+> **This is real malware data. Please don't naviage to the urls on your system. You may infect your machine.**
 
 ## test
 * http://localhost:5000/
