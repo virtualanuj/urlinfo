@@ -27,3 +27,5 @@ git clone https://github.com/virtualanuj/urlinfo.git
 * http://localhost:5000/urlinfo/1/www.frosinonewesternshow.it/fws2011/7tappa.htm
 * http://localhost:5000/urlinfo/1/grendizer.biz/Informazioni/statistiche.zip
 
+## cli performance test
+> ab -k -n 5000 http://127.0.0.1:5000/urlinfo/1/www.frosinonewesternshow.it/fws2011/7tappa.htm
