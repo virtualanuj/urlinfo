@@ -12,7 +12,7 @@ app.config['SECRET_KEY'] = '\x81\xa24\xe0\xfe\xdb\xe6\x0f\x14\xfa\x038\xfd\xda\x
 db = redis.Redis('localhost')
 
 @app.route('/', defaults={'url': ''}, methods = ['GET'])
-@app.route('/<path:url>', methods = ['GET'])
+@app.route('/urlinfo/1/<path:url>', methods = ['GET'])
 def home(url):
     result = {}
     result['url'] = url
