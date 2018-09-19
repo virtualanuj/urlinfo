@@ -8,22 +8,22 @@
 ## clone the repository
 git clone https://github.com/virtualanuj/urlinfo.git
 
-<aside class="warning">
-This is real malvare data. Please don't naviage to the urls on your system. You may infect your machine.
-</aside>
+
+> **This is real malvare data. Please don't naviage to the urls on your system. You may infect your machine.**
+
 
 ## seed data
-cat data.txt | redis-cli --pipe
+* redis-server
+* cat data.txt | redis-cli --pipe
 
-# run
+## run
 * redis-server
 * python urlinfo.py
 
-<aside class="warning">
-This is real malvare data. Please don't naviage to the urls on your system. You may infect your machine.
-</aside>
-# test
-http://localhost:5000/
-http://localhost:5000/urlinfo/1/www.frosinonewesternshow.it/fws2011/7tappa.htm
-http://localhost:5000/urlinfo/1/grendizer.biz/Informazioni/statistiche.zip
+> **This is real malvare data. Please don't naviage to the urls on your system. You may infect your machine.**
+
+## test
+* http://localhost:5000/
+* http://localhost:5000/urlinfo/1/www.frosinonewesternshow.it/fws2011/7tappa.htm
+* http://localhost:5000/urlinfo/1/grendizer.biz/Informazioni/statistiche.zip
 
